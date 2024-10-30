@@ -1,0 +1,26 @@
+.footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+    color: var(--color-primary);
+    gap: 20px;
+}
+
+.footer__soc1al{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer__soc1al-link {
+    max-width: 35px;
+    transition: transform ease 0.6s;
+    gap: 10px;
+    color: var(--color-primary);
+
+    &:hover {
+        transform: scale(1.2);
+    }
+}

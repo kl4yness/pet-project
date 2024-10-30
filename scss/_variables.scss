@@ -1,0 +1,30 @@
+:root {
+    --color-white: #ffffff;
+    --color-primary: #1C364A;
+    --color-pink: #d8bbd8;
+
+    --font-size-12: 0.75em;
+    --font-size-14: 0.875em;
+    --font-size-16: 1em;
+    --font-size-18: 1.125em;
+    --font-size-20: 1.25em;
+    --font-size-24: 1.5em;
+    --font-size-32: 2em;
+    --font-size-40: 2.5em;
+    --font-size-44: 2.75em;
+    --font-size-48: 3em;
+
+    --background-color-primary: #cee5e3;
+    --background-color-secondary: var(--color-white);
+
+    --font-family-kanit: 'Kanit', sans-serif;
+
+    --font-color-primary: var(--color-primary);
+    --font-color-secondary: var(--color-white);
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
